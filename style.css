@@ -1,0 +1,46 @@
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+.card-body {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+.navbar,
+.mainfooter,
+.text-bg-primary {
+    background-color: #003087;
+}
+
+.btn-dark {
+    background-color: #0050d4;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #1a1aff;
+}
+
+.fa-stack {
+    color: #1a73e8;
+}
+
+.card-body {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+.stats {
+    background-color: #101010;
+}
+
+img.ROTP{
+    transition-duration: 10ms;
+    transition-property: transform;
+}
+
+ROT:hover{
+    transform: rotate(360deg);
+}
