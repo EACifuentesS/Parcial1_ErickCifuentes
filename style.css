@@ -36,11 +36,19 @@ body {
     background-color: #101010;
 }
 
-img.ROTP{
-    transition-duration: 10ms;
-    transition-property: transform;
+
+.navbar-brand:hover {
+    background-position: 100% 0;
 }
 
-ROT:hover{
-    transform: rotate(360deg);
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
